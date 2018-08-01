@@ -1,0 +1,32 @@
+.pontuacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+    padding: 40px;
+    border: 5px dotted red;
+}
+
+.pontuacao h1{
+    margin: 0;
+    font-size: 40pt;
+}
+
+.pontuacao h2{
+    margin: 0;
+}
+
+.pontuacao .gol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: black;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
